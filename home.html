@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220207231615">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220207232519">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,8 +14,33 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-lp class="header">
 			<div class="header__container">
+
+				<div class="header__body">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<a href="home.html" class="header__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип компании"></picture>
+						</a>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".models" href="#" class="menu__link">Печи</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".cladding" href="#" class="menu__link">Облицовка</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto="" href="#" class="menu__link">Порталы</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto="" href="#" class="menu__link">Аксессуары</a></li>
+							</ul>
+						</nav>
+						<div class="header__links">
+							<a href="mailto:gefestlietuva@gmail.com" class="header__link _icon-mail">gefestlietuva@gmail.com</a>
+							<a href="tel:37061355113" class="header__link _icon-tel">+370 61 355113</a>
+						</div>
+						<div class="header__language">
+							<a href="#">ru</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</header>
 		<main class="page">
@@ -737,7 +762,7 @@
 </div>
  -->
 
-	<script src="js/app.min.js?_v=20220207231615"></script>
+	<script src="js/app.min.js?_v=20220207232519"></script>
 </body>
 
 </html>
