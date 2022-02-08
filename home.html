@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220208011128">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220208034959">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +28,7 @@
 								<li class="menu__item"><a data-goto-top="100px" data-goto=".models" href="#" class="menu__link">Печи</a></li>
 								<li class="menu__item"><a data-goto-top="100px" data-goto=".cladding" href="#" class="menu__link">Облицовка</a></li>
 								<li class="menu__item"><a data-goto-top="100px" data-goto=".portals" href="#" class="menu__link">Порталы</a></li>
-								<li class="menu__item"><a data-goto-top="100px" data-goto="" href="#" class="menu__link">Аксессуары</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".catalog" href="#" class="menu__link">Аксессуары</a></li>
 							</ul>
 						</nav>
 						<div class="header__links">
@@ -44,7 +44,7 @@
 			</div>
 		</header>
 		<main class="page">
-			<section data-fullscreen class="intro">
+			<section class="intro">
 				<div class="intro__image">
 					<picture><source srcset="img/intro/1.webp" type="image/webp"><img src="img/intro/1.png" alt="Фоновая картинка с печкой"></picture>
 				</div>
@@ -54,15 +54,39 @@
 							<h1 class="intro__title title-yellow">
 								<span>Чугунные печи</span> для русской бани
 							</h1>
+							<p class="intro__subtitle">Рассчитайте цену комплектации для Вашей бани!</p>
+							<a href="#" data-popup="#price" class="intro__button button">Рассчитать стоимость</a>
 						</div>
+						<div data-da=".intro__temp, 769, first" class="intro__image-2">
+							<picture><source srcset="img/intro/2.webp" type="image/webp"><img src="img/intro/2.png" alt="печка"></picture>
+						</div>
+					</div>
 
+					<div class="intro__wrapper">
+						<div class="intro__cards">
+							<div class="intro__card card-intro">
+								<div class="card-intro__num">01</div>
+								<div class="card-intro__text">Поможем подобрать комплектацию под ключ;</div>
+							</div>
+							<div class="intro__card card-intro">
+								<div class="card-intro__num">02</div>
+								<div class="card-intro__text">Оригинальные запатентованные печи Gefest;</div>
+							</div>
+							<div class="intro__card card-intro">
+								<div class="card-intro__num">03</div>
+								<div class="card-intro__text">Печи, дымоходы, облицовка, порталы, трубы;</div>
+							</div>
+						</div>
+						<div class="intro__temp"></div>
 					</div>
 				</div>
 			</section>
-			<div class="custom-shape-divider-bottom-1644231956">
-				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-					<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-				</svg>
+			<div class="relative">
+				<div class="custom-shape-divider-bottom-1644231956">
+					<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+						<path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+					</svg>
+				</div>
 			</div>
 			<section class="about">
 				<div class="about__image">
@@ -596,7 +620,45 @@
 						</div>
 					</div>
 				</div>
+
+
 			</section>
+			<section class="how-choose">
+				<div class="how-choose__container">
+					<h2 class="how-choose__title title">
+						Подбор модели зависит от размеров парной
+					</h2>
+
+					<div class="how-choose__content">
+						<div class="how-choose__image">
+							<picture><source srcset="img/how-to-choose/1.webp" type="image/webp"><img src="img/how-to-choose/1.png" alt="фото бани"></picture>
+						</div>
+						<div class="how-choose__info">
+							<p class="how-choose__text">
+								Мощность и габариты наших печей позволяют устанавливать их как в небольших парных
+								площадью 18 м², так и в просторных
+								банях площадью 80 м². Расчет необходимой мощности делается исходя из объема помещения
+								и +35% минимум.
+							</p>
+							<p class="how-choose__text">
+								Если Вы не уверены, какой размер печи будет оптимальным — мы поможем подобрать вариант,
+								исходя из параметров Вашей
+								парной.
+							</p>
+							<a href="#" class="how-choose__button button">
+								Подобрать модель
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="relative">
+				<div class="custom-shape-divider-top-1644255775">
+					<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+						<path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+					</svg>
+				</div>
+			</div>
 			<section class="options types-doors">
 				<div class="options__background">
 					<picture><source srcset="img/door-types/background.webp" type="image/webp"><img src="img/door-types/background.png" alt=""></picture>
@@ -779,7 +841,11 @@
 					</div>
 				</div>
 			</section>
-
+			<section class="news">
+				<div class="news__container">
+					<h2 class="news__title title">Новости и акции</h2>
+				</div>
+			</section>
 			<div class="relative">
 				<div class="custom-shape-divider-top-1644255775">
 					<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -837,19 +903,64 @@
 			</div>
 		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
-	<div class="popup__wrapper">
-		<div class="popup__content">
-			<button data-close type="button" class="popup__close">Закрыть</button>
-			<div class="popup__text">
+	<div id="price" aria-hidden="true" class="popup popup__price">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-close"></button>
+				<div class="popup__text">
+
+					<h2 class="popup__title">Заполните поля</h2>
+					<h4 class="popup__subtitle">и мы вышлем предложение по цене!</h4>
+
+					<form action="#" class="popup__form">
+
+						<div class="popup-form__item">
+							<h6 class="popup-form__title">Вариант исполнения:</h6>
+							<div class="popup-form__options">
+								<div class="popup-form__option">
+									<input id="cladding" checked type="radio" name="versions" class="popup-form-option__item">
+									<label for="cladding">В облицовке</label>
+								</div>
+								<div class="popup-form__option">
+									<input id="hurricane" type="radio" name="versions" class="popup-form-option__item">
+									<label for="hurricane">В сетке «Ураган»</label>
+								</div>
+								<div class="popup-form__option">
+									<input id="lining" type="radio" name="versions" class="popup-form-option__item">
+									<label for="lining">Под обкладку</label>
+								</div>
+							</div>
+						</div>
+						<div class="popup-form__item">
+
+						</div>
+						<div class="popup-form__item">
+
+						</div>
+						<div class="popup-form__item">
+
+						</div>
+						<div class="popup-form__item">
+
+						</div>
+					</form>
+
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
- -->
 
-	<script src="js/app.min.js?_v=20220208011128"></script>
+	<div id="feedback" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">Закрыть</button>
+				<div class="popup__text">
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220208034959"></script>
 </body>
 
 </html>
