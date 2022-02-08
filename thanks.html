@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220208182037">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper thanks">
+		<header data-lp class="header">
+			<div class="header__container">
+
+				<div class="header__body">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<a href="home.html" class="header__logo">
+							<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип компании"></picture>
+						</a>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".models" href="#" class="menu__link">Печи</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".cladding" href="#" class="menu__link">Облицовка</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".portals" href="#" class="menu__link">Порталы</a></li>
+								<li class="menu__item"><a data-goto-top="100px" data-goto=".catalog" href="#" class="menu__link">Аксессуары</a></li>
+							</ul>
+						</nav>
+						<div class="header__links">
+							<a href="mailto:gefestlietuva@gmail.com" class="header__link _icon-mail">gefestlietuva@gmail.com</a>
+							<a href="tel:37061355113" class="header__link _icon-tel">+370 61 355113</a>
+						</div>
+						<div class="header__language">
+							<a href="#">ru</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</header>
+		<main class="page">
+			<section class="main">
+				<div class="main__image">
+					<picture><source srcset="img/thanks/1.webp" type="image/webp"><img src="img/thanks/1.png" alt="1"></picture>
+				</div>
+				<div class="main__container">
+					<div class="main__content">
+						<div class="main-background">
+							<h2 class="title main__title">
+								<span>Спасибо <br>за Ваш запрос!</span>
+							</h2>
+							<p class="main__text">Наш представитель свяжется с Вами как можно скорее
+								для обсуждения деталей.</p>
+							<p class="main__text">Если вопрос срочный - звоните нам:</p>
+							<a href="tel:37061355113" class="main__tel _icon-tel">+370 61 355113</a>
+						</div>
+						<div class="main__back-wrapper">
+							<a href="home.html" class="main__back button">Вернуться на главную</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copyright">
+					<p>Gefest © 2021</p>
+					<a href="#">Политика конфиденциальности</a>
+				</div>
+				<a href="#" class="footer__link">
+					<img src="img/footer/1.svg" alt="1">
+					Разработка сайта и реклама - www.gim.lv
+				</a>
+			</div>
+		</footer>
+	</div>
+	<div id="price" aria-hidden="true" class="popup popup__price">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-close"></button>
+				<div class="popup__text">
+
+					<h2 class="popup__title">Заполните поля</h2>
+					<h4 class="popup__subtitle">и мы вышлем предложение по цене!</h4>
+
+					<form action="#" class="popup__form">
+
+						<div class="popup-form__item">
+							<h6 class="popup-form__title">Вариант исполнения:</h6>
+							<div class="popup-form__options">
+								<div class="popup-form__option">
+									<input id="cladding" checked type="radio" name="versions" class="popup-form-option__item">
+									<label class="options__label" for="cladding">В облицовке</label>
+								</div>
+								<div class="popup-form__option">
+									<input id="hurricane" type="radio" name="versions" class="popup-form-option__item">
+									<label class="options__label" for="hurricane">В сетке «Ураган»</label>
+								</div>
+								<div class="popup-form__option">
+									<input id="lining" type="radio" name="versions" class="popup-form-option__item">
+									<label class="options__label" for="lining">Под обкладку</label>
+								</div>
+							</div>
+						</div>
+						<div class="popup-form__item">
+							<div class="form__label">
+								Размеры парной в метрах:
+							</div>
+							<div class="popup-form__item-size">
+								<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="" class="input input-size">
+								<img src="img/icons/close-2.svg" alt="">
+
+								<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="" class="input input-size">
+								<img src="img/icons/close-2.svg" alt="">
+
+								<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="" class="input input-size">
+							</div>
+						</div>
+						<div class="popup-form__item">
+							<div class="form__label">
+								Высота от пола до конька (верхняя точка кровли) в метрах:
+							</div>
+							<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="" class="input input-height">
+						</div>
+						<div class="popup-form__item popup-form__last">
+							<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Ваше имя" class="input">
+							<input autocomplete="off" type="email" name="form[]" data-error="" placeholder="E-mail" class="input">
+							<input autocomplete="off" type="tel" name="form[]" data-error="" placeholder="Номер телефона" class="input">
+							<button type="submit" class="popup__form-button">Узнать цену</button>
+						</div>
+						<div class="popup-form__item">
+							<div class="checkbox">
+								<input checked id="agreement" autocomplete="off" type="checkbox" name="Formagreement" data-error="" placeholder="" class="input checkbox__input">
+								<label class="checkbox__label" for="agreement">Я даю согласие на обработку персональных
+									данных</label>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="feedback" aria-hidden="true" class="popup popup__price popup-feedback">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _icon-close"></button>
+				<div class="popup__text">
+					<h2 class="popup__title">Оставьте свои данные</h2>
+					<h4 class="popup__subtitle">и мы свяжемся для обсуждения вопроса!</h4>
+
+					<form action="#" class="popup__form">
+
+						<div class="popup-form__item">
+							<textarea name="textArea" id="textAreaId"></textarea>
+						</div>
+						<div class="popup-form__item popup-form__last">
+							<input autocomplete="off" type="text" name="form[]" data-error="" placeholder="Ваше имя" class="input">
+							<input autocomplete="off" type="email" name="form[]" data-error="" placeholder="E-mail" class="input">
+							<input autocomplete="off" type="tel" name="form[]" data-error="" placeholder="Номер телефона" class="input">
+							<button type="submit" class="popup__form-button">Задать вопрос</button>
+						</div>
+						<div class="popup-form__item">
+							<div class="checkbox">
+								<input checked id="agreement" autocomplete="off" type="checkbox" name="Formagreement" data-error="" placeholder="" class="input checkbox__input">
+								<label class="checkbox__label" for="agreement">Я даю согласие на обработку персональных
+									данных</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220208182037"></script>
+</body>
+
+</html>
